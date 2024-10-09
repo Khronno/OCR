@@ -17,6 +17,6 @@ print("Tiempo de proceso: ", time.process_time())
 
 img_display = cv2.imread(NEW_PATH)
 
-cv2.imshow('Imagen Optimizada', img_display)
+cv2.imshow(PATH_TO_IMAGE, img_display)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
