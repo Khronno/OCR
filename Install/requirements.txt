@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+opencv-python
+pytesseract
+pdf2image
+
+#pip install -r requirements.txt to install all requirements
+
+#Execute tesseract-ocr.exe
+#Unzip Realease-22.0, search bin inside of the unzip archive, copy the route and put them in the path variable
